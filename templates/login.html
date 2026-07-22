@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Lulêh Fitness</title>
+
+    <link rel="stylesheet" href="../static/css/login.css">
+
+</head>
+<body>
+
+    <div class="topo">
+        <h1>Sistema de Login</h1>
+        <p>Preencha os dados abaixo para realizar login</p>
+    </div>
+
+    <div class="menu">
+
+        <div class="botao">
+            <a href="/">Home</a>
+        </div>
+
+        <div class="botao">
+            <a href="/cadastrar">Cadastrar</a>
+        </div>
+
+        <div class="botao">
+            <a href="/login">Login</a>
+        </div>
+
+    </div>
+
+    <div class="cadastro">
+
+        <h2>Login</h2>
+
+            <form action="/email" method="post">
+                <label>Usuario:</label><br>
+                <input type="text" name="emailusuario"><br>
+                <label>Senha:</label><br>
+                <input type="password" name="senhausuario"><br>
+                <button type="submit">login</button>
+            </form>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    background-color:#f4f4f4;
+    font-family:Arial;
+}
+
+.topo{
+    text-align:center;
+    background-color:RebeccaPurple;
+    color:white;
+    width:98%;
+    height:120px;
+    padding-top:20px;
+    border-radius:15px;
+    margin:auto;
+}
+
+.menu{
+    display:flex;
+    text-align:center;
+    background-color:Indigo;
+    justify-content:center;
+    width:98%;
+    height:70px;
+    padding-top:10px;
+    gap:20px;
+    align-items:center;
+    border-radius:15px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.botao{
+    background-color:white;
+    width:140px;
+    height:35px;
+    border-radius:10px;
+    padding-top:10px;
+    transition:0.3s;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.botao a{
+    color:Indigo;
+    text-decoration:none;
+    font-weight:bold;
+    display:block;
+}
+
+.botao:hover{
+    background-color:RebeccaPurple;
+    transform:translateY(-4px);
+    box-shadow:0 8px 18px rgba(75,0,130,0.35);
+}
+
+.botao:hover a{
+    color:white;
+}
+
+.conteudo{
+    text-align:center;
+    width:98%;
+    padding-top:20px;
+    margin:auto;
+}
+
+.cadastro{
+    background-color: Lavender;
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cadastro h2{
+    margin-bottom: 30px;
+}
+
+.cadastro input{
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.cadastro button{
+    background-color: Indigo;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cadastro button:hover{
+    background-color: RebeccaPurple;
+}

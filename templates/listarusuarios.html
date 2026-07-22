@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>oi</h1>
+    <hr>
+    {%if usuarios%}
+        {% for usuario in usuarios %}
+            <p>{{usuario.nome}} | {{usuario.email}} | {{usuario.login}}  | {{usuario.senha}}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

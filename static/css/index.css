@@ -1,0 +1,116 @@
+body{
+    background-color:#f4f4f4;
+    font-family:Arial;
+}
+
+.topo{
+    text-align:center;
+    background-color:RebeccaPurple;
+    color:white;
+    width:98%;
+    height:120px;
+    padding-top:20px;
+    border-radius:15px;
+    margin:auto;
+}
+
+.menu{
+    display:flex;
+    text-align:center;
+    background-color:Indigo;
+    justify-content:center;
+    width:98%;
+    height:70px;
+    padding-top:10px;
+    gap:20px;
+    align-items:center;
+    border-radius:15px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.botao{
+    background-color:white;
+    width:140px;
+    height:35px;
+    border-radius:10px;
+    padding-top:10px;
+    transition:0.3s;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.botao a{
+    color:Indigo;
+    text-decoration:none;
+    font-weight:bold;
+    display:block;
+}
+
+.botao:hover{
+    background-color:RebeccaPurple;
+    transform:translateY(-4px);
+    box-shadow:0 8px 18px rgba(75,0,130,0.35);
+}
+
+.botao:hover a{
+    color:white;
+}
+
+.conteudo{
+    text-align:center;
+    width:98%;
+    padding-top:20px;
+    margin:auto;
+}
+
+.col2{
+    background-color:Lavender;
+    width:70%;
+    padding:20px;
+    border-radius:15px;
+    margin:auto;
+}
+
+ul{
+    text-align:left;
+    width:300px;
+    margin:auto;
+    line-height:30px;
+}
+
+.planos{
+    margin-top:30px;
+}
+
+.card{
+    background-color:white;
+    width:250px;
+    padding:20px;
+    border-radius:15px;
+    display:inline-block;
+    margin:15px;
+    text-align:center;
+}
+.beneficios{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-top:20px;
+}
+
+.beneficios img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+}
+
+.texto{
+    text-align:center;
+}
+
+.texto ul{
+    width:auto;
+    text-align:left;
+}
