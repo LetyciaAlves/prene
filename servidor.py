@@ -58,7 +58,7 @@ def login():
             return render_template('planos.html')
 
     return render_template(
-        'login.html',
+        'planos.html',
         mensagem='Login ou senha incorretos')
 
 
@@ -75,4 +75,11 @@ def logout():
     session.clear()
     return render_template('login.html')
 
-app.run(debug=True)
+import os
+
+if __name__ == "__main__":
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 10000)),
+        debug=True
+    )
